@@ -217,7 +217,7 @@ title: Split Test Analysis
 
 
 
-![jpg](output_5_1.jpg)
+![png](output_5_1.png)
 
 
 I would ask you how did you control for time (time of day, which weekday, etc), and did you account for the fact that maybe the companies were just more desperate due to some lurking/extraneous factor? Since the goal is to have a variation which outputs the highest conversion rate, here are the analysis of my results: version 3 is the best, version 4 is second, baseline is third, version 1 is fourth, and version 2 is the worst.
