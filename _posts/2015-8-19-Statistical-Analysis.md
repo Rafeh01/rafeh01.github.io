@@ -2,6 +2,10 @@
 layout: post
 title: Split Test Analysis
 ---
+
+<h4>Problem: A/B Test. Testing an online forum and seeing which variation of the forum lured in more sales. Baseline was original, every other altercation afterwards was titled "Variation" with it's respective number. Let's crunch the numbers and analyze this data set together.</h4>
+
+Let's start off with useful imports in IPython.
     %autosave 120
     import pandas as pd
     import numpy as np
@@ -73,14 +77,11 @@ title: Split Test Analysis
     print ((51/606) * 100)
     print ((38/578) * 100)
 
-
     5.378151260504202
     5.008347245409015
     2.8938906752411575
     8.415841584158416
     6.5743944636678195
-
-
 
     galvanizeData['Conversion Rates'] = (galvanizeData['Quotes']/galvanizeData['Views']) * 100
     galvanizeData.head()
@@ -139,13 +140,13 @@ title: Split Test Analysis
 </table>
 </div>
 
+<h4>By calculating the conversion rate in percentages, we can identify which variation was the best. However, the conversion rates are currently not sorted so let's do that. </h4>
 
-
-{% highlight python linenos %}
+{% highlight python3 linenos %}
     galvanizeData.sort(columns='Conversion Rates')
 {% endhighlight %}
 
-
+<h3>Time for some beautiful visualizations!</h3>
 
 <div>
 <table border="1" class="dataframe">
@@ -198,10 +199,9 @@ title: Split Test Analysis
 </table>
 </div>
 
-
-
-
-    sns.barplot(x = 'Buckets', y = 'Conversion Rates', data=galvanizeData.sort(columns='Conversion Rates'))
+{% highlight numpy %}
+  sns.barplot(x = 'Buckets', y = 'Conversion Rates', data=galvanizeData.sort(columns='Conversion Rates'))
+{% endhighlight %}
 
 <matplotlib.axes._subplots.AxesSubplot at 0x10bc10da0>
 
