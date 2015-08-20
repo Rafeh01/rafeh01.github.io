@@ -15,7 +15,7 @@ title: Split Test Analysis
     
     galvanizeData = pd.read_csv('downloads/galvanizeData.csv')
 
-    { % endhighlight % }
+
 
     Autosaving every 120 seconds
 
@@ -23,6 +23,7 @@ title: Split Test Analysis
 
     galvanizeData.head()
 
+{ % endhighlight % }
 
 
 
