@@ -7,6 +7,8 @@
     
      ** Brownie Points ** <br>
     - 1. The ability to find often used phrases (a phrase of 3 or more words used over 3 times)
+
+<a href="/Statistical-Analysis/" class="read-more">Read More</a>
     
     {% highlight python3 linenos %}
     #f = open('downloads/workfile.txt', 'r')
