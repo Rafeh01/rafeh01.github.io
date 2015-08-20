@@ -71,7 +71,7 @@ title: Split Test Analysis
 </div>
 
 
-{% highlight Python %}
+{% highlight Python linenos %}
 
     print ((32/595) * 100)
     print ((30/599) * 100)
