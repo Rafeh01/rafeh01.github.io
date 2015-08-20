@@ -2,9 +2,7 @@
 layout: post
 title: Split Test Analysis
 ---
-
-lol
-
+{% highlight Python linenos %}
     %autosave 120
     import pandas as pd
     import numpy as np
@@ -23,7 +21,7 @@ lol
 
 
     galvanizeData.head()
-
+{% endhighlight %}
 
 
 
