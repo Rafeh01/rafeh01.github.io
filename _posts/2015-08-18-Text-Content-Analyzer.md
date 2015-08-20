@@ -1,3 +1,8 @@
+ ---
+layout: post
+title: Text Content Analyzer
+---
+
  * Program for python text content analyzer
     
     ** Requirements **<br>
