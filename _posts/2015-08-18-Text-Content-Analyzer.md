@@ -4,7 +4,7 @@ title: Text Content Analyzer
 ---
 
  * Program for python text content analyzer
-    
+(shown below)  
     ** Requirements **<br>
     - 1. total word count<br>
     - 2. total unique word count<br>
