@@ -3,7 +3,7 @@ layout: post
 title: Split Test Analysis
 ---
 
-<h4>Problem: A/B Test. Testing an online forum and seeing which variation of the forum lured in more sales. Baseline was (shown below) original, every other altercation afterwards was titled "Variation" with it's respective number. Let's crunch the numbers and analyze this data set together.</h4>
+<h4>Problem: A/B Test. Testing an online forum and seeing which variation of the forum lured in more sales. Baseline was original, every other altercation afterwards was titled "Variation" with it's respective number. Let's crunch the numbers and analyze this data set together.</h4>
 
 Let's start off with useful imports in IPython.
     %autosave 120
