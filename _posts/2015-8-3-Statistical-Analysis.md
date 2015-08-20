@@ -71,7 +71,7 @@ title: Split Test Analysis
 </div>
 
 
-
+{% highlight python linenos %}
 
     print ((32/595) * 100)
     print ((30/599) * 100)
@@ -91,7 +91,7 @@ title: Split Test Analysis
     galvanizeData['Conversion Rates'] = (galvanizeData['Quotes']/galvanizeData['Views']) * 100
     galvanizeData.head()
 
-
+{% endhighlight %}
 
 
 <div>
