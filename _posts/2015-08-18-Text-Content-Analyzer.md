@@ -3,7 +3,7 @@
     ** Requirements **<br>
     - 1. total word count<br>
     - 2. total unique word count<br>
-    - 3. total sentence count
+    - 3. total sentence count<br>
     <!-- more -->
     
      ** Brownie Points ** <br>
