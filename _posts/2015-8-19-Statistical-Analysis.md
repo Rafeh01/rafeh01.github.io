@@ -212,9 +212,9 @@ Let's start off with useful imports in IPython.
 <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Split Test Analysis</h2>
 
 <div>
-  <a style="display: block; text-align: center;"></a>
+  <a style="display: block; text-align: center;">
 <h4>Which variation had the highest conversion rate?</h4>
-
+</a>
 </div>
 
 <div>
