@@ -3,7 +3,7 @@ layout: post
 title: Split Test Analysis
 ---
 
-{% post_url 2014-3-3-Hello-World.md %}
+{% url 2014-3-3-Hello-World.md %}
 
     %autosave 120
     import pandas as pd
