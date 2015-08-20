@@ -3,16 +3,16 @@ layout: post
 title: Split Test Analysis
 ---
 
-{% highlight Python linenos %}
-  
-    autosave 120
+lol
+
+    %autosave 120
     import pandas as pd
     import numpy as np
     
     # For visualization
     import seaborn as sns
     import matplotlib.pyplot as plt
-    matplotlib inline
+    %matplotlib inline
     
     galvanizeData = pd.read_csv('downloads/galvanizeData.csv')
 
@@ -23,8 +23,6 @@ title: Split Test Analysis
 
 
     galvanizeData.head()
-
-{% endhighlight %}
 
 
 
