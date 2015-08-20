@@ -242,13 +242,13 @@ If I were to run it again, I would consider removing variations that offered a c
 
     * Program for python text content analyzer
     
-    ** Requirements **
-    * 1. total word count
-    * 2. total unique word count
-    * 3. total sentence count
+    ** Requirements **<br>
+    - 1. total word count<br>
+    - 2. total unique word count<br>
+    - 3. total sentence count
     
-    ** Brownie Points **
-    * 1. The ability to find often used phrases (a phrase of 3 or more words used over 3 times)
+     ** Brownie Points ** <br>
+    - 1. The ability to find often used phrases (a phrase of 3 or more words used over 3 times)
     
     {% highlight python linenos %}
     #f = open('downloads/workfile.txt', 'r')
