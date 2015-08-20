@@ -4,7 +4,6 @@
     - 1. total word count<br>
     - 2. total unique word count<br>
     - 3. total sentence count<br>
-    <!-- more -->
     
      ** Brownie Points ** <br>
     - 1. The ability to find often used phrases (a phrase of 3 or more words used over 3 times)
