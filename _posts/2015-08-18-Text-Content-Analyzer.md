@@ -4,11 +4,10 @@
     - 1. total word count<br>
     - 2. total unique word count<br>
     - 3. total sentence count
+    <!-- more -->
     
      ** Brownie Points ** <br>
     - 1. The ability to find often used phrases (a phrase of 3 or more words used over 3 times)
-
-<a href="/Text-Content-Analyzer/" class="read-more">Read More</a>
     
     {% highlight python3 linenos %}
     #f = open('downloads/workfile.txt', 'r')
