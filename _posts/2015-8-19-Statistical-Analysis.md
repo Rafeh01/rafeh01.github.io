@@ -3,6 +3,8 @@ layout: post
 title: Split Test Analysis
 ---
 
+{% post_url 2014-02-10-test %}
+
     %autosave 120
     import pandas as pd
     import numpy as np
