@@ -213,7 +213,10 @@ Let's start off with useful imports in IPython.
 
 <h4>Which variation had the highest conversion rate?</h4>
 
-![Graph]({{ site.url }}/images/output_5_1.png)
+<div>
+    <a href="https://plot.ly/~RafehQazi/25/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~RafehQazi/25.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="RafehQazi:25"  src="https://plot.ly/embed.js" async></script>
+</div>
 
 I would ask you how did you control for time (time of day, which weekday, etc), and did you account for the fact that maybe the companies were just more desperate due to some lurking/extraneous factor? Since the goal is to have a variation which outputs the highest conversion rate, here are the analysis of my results: version 3 is the best, version 4 is second, baseline is third, version 1 is fourth, and version 2 is the worst.
 
