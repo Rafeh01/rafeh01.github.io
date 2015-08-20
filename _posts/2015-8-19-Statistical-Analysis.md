@@ -2,9 +2,6 @@
 layout: post
 title: Split Test Analysis
 ---
-
-{% post_url test %}
-
     %autosave 120
     import pandas as pd
     import numpy as np
@@ -16,12 +13,7 @@ title: Split Test Analysis
     
     galvanizeData = pd.read_csv('downloads/galvanizeData.csv')
 
-
-
     Autosaving every 120 seconds
-
-
-
     galvanizeData.head()
 
 
@@ -211,16 +203,9 @@ title: Split Test Analysis
 
     sns.barplot(x = 'Buckets', y = 'Conversion Rates', data=galvanizeData.sort(columns='Conversion Rates'))
 
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x10bc10da0>
-
-
-
-
+<matplotlib.axes._subplots.AxesSubplot at 0x10bc10da0>
+<h2>Split Test Analysis</h2>
 ![Graph]({{ site.url }}/images/output_5_1.png)
-
 
 I would ask you how did you control for time (time of day, which weekday, etc), and did you account for the fact that maybe the companies were just more desperate due to some lurking/extraneous factor? Since the goal is to have a variation which outputs the highest conversion rate, here are the analysis of my results: version 3 is the best, version 4 is second, baseline is third, version 1 is fourth, and version 2 is the worst.
 
@@ -241,15 +226,15 @@ If I were to run it again, I would consider removing variations that offered a c
 - Website acting glitchy at moments of quote purchasing
 
 
-    # Program for python text content analyzer
+    * Program for python text content analyzer
     
-    # Requirements
-    # 1. total word count
-    # 2. total unique word count
-    # 3. total sentence count
+    ** Requirements **
+    * 1. total word count
+    * 2. total unique word count
+    * 3. total sentence count
     
-    # Brownie Points
-    # 1. The ability to find often used phrases (a phrase of 3 or more words used over 3 times)
+    ** Brownie Points **
+    * 1. The ability to find often used phrases (a phrase of 3 or more words used over 3 times)
     
     {% highlight python linenos %}
     #f = open('downloads/workfile.txt', 'r')
