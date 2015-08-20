@@ -280,8 +280,6 @@ If I were to run it again, I would consider removing variations that offered a c
     #text_content_analyzer(f)
 {% endhighlight %}
 
-rafeh01
-
 <!--- NOTES
 {% post_url 2010-07-21-name-of-post %}
 and here
