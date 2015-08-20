@@ -5,7 +5,7 @@ title: Split Test Analysis
 
 {% highlight Python linenos %}
   
-    %autosave 120
+    autosave 120
     import pandas as pd
     import numpy as np
     
