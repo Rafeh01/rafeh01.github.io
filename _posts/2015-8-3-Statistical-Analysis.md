@@ -71,7 +71,7 @@ title: Split Test Analysis
 </div>
 
 
-{% highlight AntlrPythonLexer %}
+{% highlight Python %}
 
     print ((32/595) * 100)
     print ((30/599) * 100)
