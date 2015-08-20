@@ -3,7 +3,7 @@ layout: post
 title: Split Test Analysis
 ---
 
-<!---My posts have gotten better, check {% post_url 2015-8-20-Statistical-Analysis.md %} -->
+
 
     %autosave 120
     import pandas as pd
@@ -279,10 +279,5 @@ If I were to run it again, I would consider removing variations that offered a c
     
     #text_content_analyzer(f)
 {% endhighlight %}
-
-<!--- NOTES
-{% post_url 2010-07-21-name-of-post %}
-and here
--->
 
     
