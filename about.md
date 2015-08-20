@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+A bit more cool things about me.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I am working hard on becoming a data scientist. I dream of mining data and crunching numbers while drinking double tall white mocha from Starbucks.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[rafehqazi1@gmail.com](mailto:rafehqazi1@gmail.com)
