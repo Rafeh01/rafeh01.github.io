@@ -207,7 +207,7 @@ title: Split Test Analysis
 
 <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Split Test Analysis</h2>
 
-<h4>&nbsp;&nbsp;Which variation had the highest conversion rate?</h4>
+<h4>Which variation had the highest conversion rate?</h4>
 
 ![Graph]({{ site.url }}/images/output_5_1.png)
 
