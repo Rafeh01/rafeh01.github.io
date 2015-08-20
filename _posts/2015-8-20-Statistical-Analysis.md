@@ -1,6 +1,5 @@
 ---
 layout: post
-comments: true
 title: Split Test Analysis
 ---
 
@@ -279,7 +278,7 @@ If I were to run it again, I would consider removing variations that offered a c
     #text_content_analyzer(f)
 {% endhighlight %}
 
-My posts have gotten better, check {%https://rafeh01.github.io/Hello-World/ 2015-8-20-Statistical-Analysis %}
+My posts have gotten better, check {% post_url 2015-8-20-Statistical-Analysis %}
 
 rafeh01
 
