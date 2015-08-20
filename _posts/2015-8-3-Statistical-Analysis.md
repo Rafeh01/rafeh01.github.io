@@ -91,7 +91,7 @@ title: Split Test Analysis
     galvanizeData['Conversion Rates'] = (galvanizeData['Quotes']/galvanizeData['Views']) * 100
     galvanizeData.head()
 
-
+{% endhighlight %}
 
 
 <div>
@@ -147,9 +147,9 @@ title: Split Test Analysis
 
 
 
-
+{% highlight python linenos %}
     galvanizeData.sort(columns='Conversion Rates')
-
+{% endhighlight %}
 
 
 
@@ -249,6 +249,7 @@ If I were to run it again, I would consider removing variations that offered a c
     # Brownie Points
     # 1. The ability to find often used phrases (a phrase of 3 or more words used over 3 times)
     
+    {% highlight python linenos %}
     #f = open('downloads/workfile.txt', 'r')
     
     def text_content_analyzer(f):
@@ -275,6 +276,6 @@ If I were to run it again, I would consider removing variations that offered a c
         return len(words), wordsCount, len(wordsCount.keys()), nbOfSentences
     
     #text_content_analyzer(f)
-
 {% endhighlight %}
+
     
