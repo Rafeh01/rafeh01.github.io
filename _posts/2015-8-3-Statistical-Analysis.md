@@ -91,7 +91,7 @@ title: Split Test Analysis
     galvanizeData['Conversion Rates'] = (galvanizeData['Quotes']/galvanizeData['Views']) * 100
     galvanizeData.head()
 
-{% endhighlight %}
+
 
 
 <div>
@@ -276,5 +276,5 @@ If I were to run it again, I would consider removing variations that offered a c
     
     #text_content_analyzer(f)
 
-
+{% endhighlight %}
     
