@@ -209,10 +209,9 @@ Let's start off with useful imports in IPython.
 
 <matplotlib.axes._subplots.AxesSubplot at 0x10bc10da0>
 
-<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Split Test Analysis</h2>
-
 <div>
   <a style="display: block; text-align: center;">
+    <h2>Split Test Analysis</h2>
 <h4>Which variation had the highest conversion rate?</h4>
 </a>
 </div>
