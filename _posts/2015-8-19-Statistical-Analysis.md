@@ -3,8 +3,6 @@ layout: post
 title: Split Test Analysis
 ---
 
-{% https://rafeh01.github.io/Hello-World/ 2014-3-3-Hello-World.md %}
-
     %autosave 120
     import pandas as pd
     import numpy as np
