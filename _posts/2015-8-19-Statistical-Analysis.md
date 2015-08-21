@@ -3,6 +3,11 @@ layout: post
 title: Split Test Analysis
 ---
 
+<nywton-chessboard 
+  data-board="board"
+  data-position="'empty'"
+></nywton-chessboard>
+
 {% highlight javascript %}
   var Chess = require('./chess').Chess;
   var chess = new Chess();
