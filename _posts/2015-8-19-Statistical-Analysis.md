@@ -14,7 +14,7 @@ title: Split Test Analysis
   }
 {% endhighlight %}
 
-{% highlight javascript %}
+{% highlight js %}
 console.log(chess.pgn());
 {% endhighlight %}
 
