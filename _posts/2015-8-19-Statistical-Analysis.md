@@ -159,7 +159,9 @@ title: Split Test Analysis
 <h4>By calculating the conversion rate in percentages, we can identify which variation was the best. However, the conversion rates are currently not sorted so let's do that. </h4>
 
 {% highlight python3 linenos %}
-    galvanizeData.sort(columns='Conversion Rates')
+
+  galvanizeData.sort(columns='Conversion Rates')
+
 {% endhighlight %}
 
 <h3>Time for some beautiful visualizations!</h3>
