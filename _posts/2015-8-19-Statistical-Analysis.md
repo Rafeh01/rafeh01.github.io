@@ -3,7 +3,7 @@ layout: post
 title: Split Test Analysis
 ---
 
-{% highlight javascript %}
+{% highlight js %}
   var Chess = require('./chess').Chess;
   var chess = new Chess();
 
@@ -13,6 +13,7 @@ title: Split Test Analysis
     chess.move(move);
   }
 {% endhighlight %}
+
 {% highlight javascript %}
 console.log(chess.pgn());
 {% endhighlight %}
