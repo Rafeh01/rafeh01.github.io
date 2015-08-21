@@ -3,7 +3,7 @@ layout: post
 title: Split Test Analysis
 ---
 
-{% highlight js %}
+{% highlight javascript %}
   var Chess = require('./chess').Chess;
   var chess = new Chess();
 
