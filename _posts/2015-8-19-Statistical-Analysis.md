@@ -12,10 +12,7 @@ title: Split Test Analysis
     var move = moves[Math.floor(Math.random() * moves.length)];
     chess.move(move);
   }
-{% endhighlight %}
-
-{% highlight js %}
-console.log(chess.pgn());
+  console.log(chess.pgn());
 {% endhighlight %}
 
 <h4>Problem: A/B Test. Testing an online forum and checking which variation of the forum netted the most quotes. Baseline was original, every other altercation afterwards was titled "Variation" with it's respective number. Testing baseline and 4 other variations so it's a fairly small 5x5 data set. Let's crunch the numbers and analyze this data set together.</h4>
