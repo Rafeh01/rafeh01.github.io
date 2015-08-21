@@ -3,24 +3,6 @@ layout: post
 title: Split Test Analysis
 ---
 
-<nywton-chessboard 
-  data-board="board"
-  data-position="'empty'"
-></nywton-chessboard>
-
-{% highlight javascript %}
-  var Chess = require('./chess').Chess;
-  var chess = new Chess();
-{% endhighlight %}
-
-{% highlight javascript %}
-  while (!chess.game_over()) {
-    var moves = chess.moves();
-    var move = moves[Math.floor(Math.random() * moves.length)];
-    chess.move(move);
-  }
-  console.log(chess.pgn());
-{% endhighlight %}
 
 <h4>Problem: A/B Test. Testing an online forum and checking which variation of the forum netted the most quotes. Baseline was original, every other altercation afterwards was titled "Variation" with it's respective number. Testing baseline and 4 other variations so it's a fairly small 5x5 data set. Let's crunch the numbers and analyze this data set together.</h4>
 
