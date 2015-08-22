@@ -3,7 +3,6 @@ layout: post
 title: Split Test Analysis
 ---
 hi
-<html>
 
 <link rel="stylesheet" type="text/css" href="/users/rafeh/dropbox/github/rafeh01.github.io/assets/css/chessboard.min.css" /></link>
 
@@ -248,6 +247,4 @@ If I were to run it again, I would consider removing variations that offered a c
 - Internet disconnection being disabled while filling out a quote
 - Website acting glitchy at moments of quote purchasing
 
-<script src="/users/rafeh/dropbox/github/rafeh01.github.io/assets/javascripts/chessboard.js" type="text/javascript"></script>
-
-</html>    
+<script src="/users/rafeh/dropbox/github/rafeh01.github.io/assets/javascripts/chessboard.js" type="text/javascript"></script>    
