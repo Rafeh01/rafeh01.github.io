@@ -3,9 +3,9 @@ layout: post
 title: Split Test Analysis
 ---
 hi lol
-
+<head>
 <link rel="stylesheet" type="text/css" href="/users/rafeh/dropbox/github/rafeh01.github.io/assets/css/chessboard.min.css" /></link>
-
+</head>
 <div id="board1" style="width: 400px"></div>
 
 
